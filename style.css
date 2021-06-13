@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    --corbg: #252422;
+    --cortext1: #f2f0d8;
+    --corbloco1: #f24b4b;
+    --corbloco2: #fca311;
+    --corbloco3: #00adb5;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--corbg);
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    height: 175px;
+    margin: 0 auto;
+    border-bottom: solid 1px var(--cortext1);
+}
+
+header .logobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 175px;
+    
+}
+
+header .logo {
+    
+    background: var(--cortext1);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+header .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 171px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+    justify-content: center;
+}
+
+header li {
+    display: flex;
+    padding: 20px;
+}
+
+header a {
+    color: var(--cortext1);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 900px;
+    height: 300px;
+    align-items: center;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 175px;
+    /*border: 2px solid red;*/
+}
+
+.logo2 {
+    background: var(--corbloco1);
+    min-width: 175px;
+    min-height: 175px;
+    border-radius: 10px;
+}
+
+.textbox {
+    width: 700px;
+    max-height: 300px; 
+    /*border: 2px solid red;*/
+}
+
+.text {
+    display: flex;
+    margin: 20px;
+    color: var(--cortext1);
+}
+
+.title1 {
+    color: var(--corbloco1);
+    font-size: 40px;
+}
+
+.text h3 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.title2 {
+    color: var(--corbloco2);
+    font-size: 40px;
+}
+
+.logo3 {
+    background: var(--corbloco2);
+    min-width: 175px;
+    min-height: 175px;
+    border-radius: 10px;
+}
+
+.title3 {
+    color: var(--corbloco3);
+    font-size: 40px;
+}
+
+.logo4 {
+    background: var(--corbloco3);
+    min-width: 175px;
+    min-height: 175px;
+    border-radius: 10px;
+}
