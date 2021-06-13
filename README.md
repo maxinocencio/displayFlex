@@ -1,2 +1,2 @@
-# displayFlex
-treinando as propriedades do display flex
+# Display flex
+Treinando as propriedades do display flex
